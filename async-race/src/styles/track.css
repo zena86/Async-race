@@ -1,0 +1,143 @@
+/* Track */
+.path {
+  height: 1px;
+  border-top: 5px dotted #fff;
+  max-width: 95%;
+  margin: 0 0 5px 30px;
+}
+
+.flag {
+  margin-left: 90%;
+  width: 50px;
+}
+
+@media (max-width: 1470px) {
+  .flag {
+    margin-left: 85%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .flag {
+    margin-left: 80%;
+  }
+}
+
+.track-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 50px 0 50px;
+}
+
+.car-name {
+  color: #fff;
+  font-size: 22px;
+}
+
+.car-track {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top: -10px;
+}
+
+/* TO DO repeat */
+.btn_sm {
+  padding: 5px 20px;
+  border: 2px solid #f4f4f4;
+  border-radius: 3px;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #646464;
+  border-color: #f4f4f4;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+
+.btn_sm:hover {
+  color: #fe2232;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.btns_ab {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 20px;
+}
+
+.btn_ab {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-width: 50px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  padding: 5px;
+  border: 2px solid #9a9a9a;
+  border-radius: 3px;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #646464;
+}
+
+.btn_ab:hover {
+  border-color: #fff;
+  color: #fff;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.ab-disabled {
+  cursor: default;
+  opacity: 0.2;
+  pointer-events: none;
+}
+
+.ab-disabled:hover {
+  cursor: default;
+  border-color: #9a9a9a;
+  color: #646464;
+  opacity: 0.2;
+}
+
+/* animation */
+.way {
+  width: 100%;
+  margin-bottom: 5px;
+  position: relative;
+}
+
+/* Win Message */
+.tracks-item {
+  position: relative;
+}
+
+.message {
+  position: absolute;
+  top: 50%;
+  left: 55%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: yellow;
+  font-size: 36px;
+}
